@@ -1,0 +1,142 @@
+h2{
+    color: #444444;
+    font-size: 52px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+  }
+  body{
+    color: gray;
+  }
+  p{
+    line-height: 1px;
+  }
+  img.profile{
+    border: 3px solid gray;
+    border-radius: 10%;
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    margin: 0.5%;
+    float: left;
+  }
+  img.twitter{
+    border-radius: 30%;
+    width: 200px;
+    height: 200px;
+    margin-top: auto;
+    
+  }
+  img.insta{
+    border-radius: 30%;
+    width: 200px;
+    height: 200px;
+    margin-top: auto;
+  }
+  img.linkedin{
+    border-radius: 30%;
+    width: 200px;
+    height: 200px;
+    margin-top: auto;
+  }
+  img.logo{
+    border-radius: 30%;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    display: block;
+  }
+  img.likes{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 1.0px;
+    padding: 5px;
+    
+  }
+
+  section.banner{
+    padding-top: 150px;
+    padding-bottom: 180px;
+    background-image: url('../images/background.png');
+    color: #ffffff;
+    text-align: center;
+    background-attachment: fixed;
+  }
+
+  section.banner p{
+    font-size: 25px;
+    color: #ffff00;
+    text-decoration: wavy;
+  }
+
+  section.banner h1{
+    text-transform: uppercase;
+    color: #ffff00;
+  }
+  
+  section.about h2{
+    text-align: center;
+  }
+  
+  section.about.h3{
+    margin-top: 1px;
+  }
+ 
+  section.about{
+    overflow: hidden;
+    padding-top: 180px;
+    padding-bottom: 180px;
+    background: url("images/darkabstract.png");
+  }
+  
+  section.favs{
+    text-align: center;
+    padding-top: 250px;
+  }
+
+  section.contact{
+    text-align: center;
+  }
+  section.contact img{
+    margin: 20px;
+  }
+  section.contact h2{
+    position: relative;
+    top: auto;
+  }
+
+  section.box{
+    padding: 50px 100px;
+  }
+
+  span.span{
+    color: burlywood;
+  }
+  section.box h2, section.box h3{
+    color: #258ea8;
+  }
+  .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    border-bottom: 1px solid #434A5C;
+    background: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  .menu li{
+    display: inline-block;
+    padding: 20px 35px;
+  }
+
+  .menu a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+  }
